@@ -199,15 +199,6 @@
       color: var(--muted);
     }
 
-    .notice {
-      padding: 14px 16px;
-      border-radius: 12px;
-      background: #fff7e8;
-      border: 1px solid #eed8a8;
-      color: #5e4b1d;
-      margin: 14px 0 18px;
-    }
-
     .footer {
       padding: 12px 0 40px;
       color: var(--muted);
@@ -218,13 +209,6 @@
       height: 1px;
       background: var(--border);
       margin: 22px 0;
-    }
-
-    code.inline {
-      background: #f1ece4;
-      padding: 2px 8px;
-      border-radius: 8px;
-      font-size: 0.95em;
     }
 
     @media (max-width: 700px) {
@@ -260,6 +244,7 @@
           Auf dieser Seite findest du das Impressum, die Datenschutzerklärung und die
           Nutzungsbedingungen von BrewSocial.
         </p>
+        <p class="muted" style="margin-top: 14px;">Stand: Mai 2026</p>
       </div>
     </div>
   </header>
@@ -294,8 +279,8 @@
             <a href="mailto:info.brewsocial@gmail.com">info.brewsocial@gmail.com</a>
           </p>
 
-          <p><strong>Umsatzsteuer-Identifikationsnummer:</strong><br />
-            Kleinunternehmer i.S.d. § 19 UStG: Hinweis „Kleinunternehmer gem. § 19 UStG, daher kein Ausweis der Umsatzsteuer“
+          <p><strong>Umsatzsteuer:</strong><br />
+            Kleinunternehmer gem. § 19 UStG, daher kein Ausweis der Umsatzsteuer.
           </p>
 
           <p><strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</strong><br />
@@ -303,17 +288,11 @@
           </p>
         </div>
 
-        <h3>EU-Streitschlichtung</h3>
+        <h3>Streitschlichtung</h3>
         <p>
-          Die Europäische Kommission stellte eine Plattform zur Online-Streitbeilegung (OS) bereit:
-          <a href="https://consumer-redress.ec.europa.eu/site-relocation_en" target="_blank" rel="noopener noreferrer">
-            ODR / Online Dispute Resolution
-          </a>.
+          Die Europäische Kommission hat die Plattform zur Online-Streitbeilegung (ODR) zum
+          20. Juli 2025 eingestellt; ein Link wird daher nicht mehr angegeben.
         </p>
-        <div class="notice">
-          Hinweis: Die frühere EU-ODR-Plattform wird inzwischen als geschlossen bzw. verlagert ausgewiesen; ältere Links auf
-          <code class="inline">ec.europa.eu/consumers/odr</code> wurden auf die neue Informationsseite umgeleitet. [web:16][web:13]
-        </div>
         <p>
           Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
           Verbraucherschlichtungsstelle teilzunehmen.
@@ -376,7 +355,7 @@
 
         <h4>a) Beim Aufruf der Website (brewsocial.github.io)</h4>
         <p>
-          Beim Aufruf unserer Website werden durch GitHub Pages (siehe Punkt 4) folgende Daten
+          Beim Aufruf unserer Website werden durch GitHub Pages (siehe Punkt 3) folgende Daten
           automatisch in Server-Logfiles erfasst:
         </p>
         <ul>
@@ -446,8 +425,8 @@
           <li>Geräteinformationen (Modell, Betriebssystem-Version)</li>
           <li>App-Version</li>
           <li>Zeitpunkt des Fehlers</li>
-          <li>ggf. IP-Adresse (wird von Sentry standardmäßig anonymisiert/gekürzt verarbeitet)</li>
-          <li>ggf. interne Nutzer-ID zur Zuordnung von Fehlern</li>
+          <li>IP-Adresse (wird beim Transport übertragen und in der Sentry-Oberfläche gekürzt dargestellt)</li>
+          <li>Interne Nutzer-ID zur Zuordnung von Fehlern, sofern der Nutzer eingeloggt ist</li>
         </ul>
         <p>
           Zweck: Erkennung und Behebung von App-Fehlern, Verbesserung der Stabilität<br />
@@ -457,8 +436,7 @@
           Datenschutzerklärung Sentry:
           <a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer">https://sentry.io/privacy/</a><br />
           Auftragsverarbeitung: Mit Sentry besteht ein Auftragsverarbeitungsvertrag (Data Processing Addendum) gemäß Art. 28 DSGVO.<br />
-          Drittlandtransfer: Die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO.<br />
-          [Anwalt prüfen lassen: aktueller DPF-Status von Sentry – falls zertifiziert, auf Art. 45 DSGVO umstellen]
+          Drittlandtransfer: Die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO sowie ergänzender technischer und organisatorischer Maßnahmen.
         </p>
 
         <h3>3. Empfänger der Daten / Drittanbieter</h3>
@@ -471,18 +449,13 @@
           <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">https://supabase.com/privacy</a><br />
           Auftragsverarbeitung: Mit Supabase besteht ein Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO.
         </p>
-        <p><strong>Drittlandtransfer USA:</strong></p>
         <p>
-          [OPTION A – falls Supabase nach EU-US Data Privacy Framework zertifiziert ist:]<br />
-          Die Übermittlung erfolgt auf Grundlage des Angemessenheitsbeschlusses der EU-Kommission vom 10.07.2023 (EU-US Data Privacy Framework) gemäß Art. 45 DSGVO.
-        </p>
-        <p>
-          [OPTION B – falls nicht zertifiziert:]<br />
-          Die Übermittlung erfolgt auf Grundlage der EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO sowie ergänzender technischer und organisatorischer Maßnahmen.
-        </p>
-        <p>
-          [Bitte vor Veröffentlichung prüfen:
-          <a href="https://www.dataprivacyframework.gov/list" target="_blank" rel="noopener noreferrer">https://www.dataprivacyframework.gov/list</a>]
+          <strong>Drittlandtransfer USA:</strong> Die Nutzerdaten werden in der EU-Region (Frankfurt) gespeichert.
+          Soweit eine Übermittlung in die USA stattfindet (z. B. Support-Zugriffe der Supabase-Mitarbeiter),
+          erfolgt diese auf Grundlage der EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO.
+          Sobald Supabase nach dem EU-US Data Privacy Framework zertifiziert ist (Status zu prüfen unter
+          <a href="https://www.dataprivacyframework.gov/list" target="_blank" rel="noopener noreferrer">https://www.dataprivacyframework.gov/list</a>),
+          gilt die Übermittlung zusätzlich als nach Art. 45 DSGVO abgesichert.
         </p>
 
         <h4>b) GitHub Pages (Hosting der Website)</h4>
@@ -490,18 +463,19 @@
           Anbieter: GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA (Tochter von Microsoft)<br />
           Verarbeitungstätigkeit: Bereitstellung der Website brewsocial.github.io, automatische Erfassung von Server-Logs<br />
           Datenschutzerklärung:
-          <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub General Privacy Statement</a><br />
+          <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub General Privacy Statement</a><br />
           Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Bereitstellung der Website)<br />
-          Drittlandtransfer: GitHub verweist in seinen Datenschutzunterlagen auf seine Datenschutzrichtlinien und internationalen Datenverarbeitungsinformationen. [web:2][web:5]
+          Drittlandtransfer: GitHub ist nach dem EU-US Data Privacy Framework zertifiziert. Die Übermittlung erfolgt auf Grundlage von Art. 45 DSGVO.
         </p>
 
         <h4>c) Sentry (Crash-Reporting)</h4>
         <p>
-          Anbieter: Functional Software, Inc. d/b.a Sentry, 45 Fremont Street, 8th Floor, San Francisco, CA 94105, USA<br />
+          Anbieter: Functional Software, Inc. d/b/a Sentry, 45 Fremont Street, 8th Floor, San Francisco, CA 94105, USA<br />
           Verarbeitungstätigkeit: Empfang und Verarbeitung von Absturz- und Fehlerberichten der App (siehe Punkt 2 lit. f)<br />
           Datenschutzerklärung:
           <a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer">https://sentry.io/privacy/</a><br />
-          Auftragsverarbeitung: Es besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.
+          Auftragsverarbeitung: Es besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.<br />
+          Drittlandtransfer: Übermittlung in die USA auf Grundlage der EU-Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO.
         </p>
 
         <h4>d) Apple App Store / Apple Inc.</h4>
@@ -520,6 +494,44 @@
           <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a>
         </p>
 
+        <h4>e) DiceBear (generierte Standard-Avatare)</h4>
+        <p>
+          Anbieter: DiceBear (Florian Körner), Anschrift gemäß Impressum unter
+          <a href="https://www.dicebear.com/impressum" target="_blank" rel="noopener noreferrer">https://www.dicebear.com/impressum</a><br />
+          Verarbeitungstätigkeit: Auslieferung eines generierten Standard-Avatars, sofern der Nutzer
+          noch kein eigenes Profilbild gesetzt hat. Beim Laden des Avatars wird die IP-Adresse an DiceBear übertragen.<br />
+          Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer ansprechenden Darstellung des Profils auch ohne hochgeladenes Bild)<br />
+          Datenschutzerklärung:
+          <a href="https://www.dicebear.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.dicebear.com/legal/privacy-policy</a>
+        </p>
+
+        <h4>f) OpenStreetMap Foundation (Cafés-Suche)</h4>
+        <p>
+          Anbieter: OpenStreetMap Foundation, St John's Innovation Centre, Cowley Road, Cambridge, CB4 0WS, United Kingdom<br />
+          Verarbeitungstätigkeit: Im Explore-Tab werden auf aktiven Klick des Nutzers Cafés im 10-km-Umkreis
+          eines eingegebenen Ortes gesucht. Dafür werden zwei Dienste angefragt:
+        </p>
+        <ul>
+          <li>Nominatim (<a href="https://nominatim.openstreetmap.org" target="_blank" rel="noopener noreferrer">https://nominatim.openstreetmap.org</a>) – Geocoding des eingegebenen Ortes in Koordinaten</li>
+          <li>Overpass API (<a href="https://overpass-api.de" target="_blank" rel="noopener noreferrer">https://overpass-api.de</a>) – Abruf der Café-Daten im Umkreis</li>
+        </ul>
+        <p>
+          Beim Aufruf wird die IP-Adresse an die OpenStreetMap Foundation übertragen. Eine Übertragung
+          findet nur statt, wenn der Nutzer aktiv den Such-Button drückt.<br />
+          Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer Café-Discovery-Funktion in der App)<br />
+          Datenschutzerklärung:
+          <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener noreferrer">https://wiki.osmfoundation.org/wiki/Privacy_Policy</a>
+        </p>
+
+        <h4>g) Picsum (Platzhalter-Bilder)</h4>
+        <p>
+          Anbieter: David Marby &amp; Nijiko Yonskai (Picsum.photos)<br />
+          Verarbeitungstätigkeit: Vereinzelt werden zufällige Platzhalter-Bilder von
+          <a href="https://picsum.photos" target="_blank" rel="noopener noreferrer">https://picsum.photos</a>
+          geladen, sofern noch kein eigenes Bild zu einem Inhalt vorliegt. Beim Laden wird die IP-Adresse an den Anbieter übertragen.<br />
+          Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer optisch vollständigen Darstellung)
+        </p>
+
         <h3>4. Speicherdauer</h3>
         <p>
           Die Daten werden gespeichert, solange dein Account aktiv ist und solange dies zur Erfüllung der
@@ -527,8 +539,8 @@
         </p>
         <p>
           Nach Löschung deines Accounts werden alle personenbezogenen Daten innerhalb von 30 Tagen aus den
-          aktiven Systemen gelöscht. Backups werden im Rahmen der üblichen Backup-Zyklen (max. [X] Tage)
-          überschrieben.
+          aktiven Systemen gelöscht. Backups (Supabase Point-in-Time-Recovery) werden im Rahmen der üblichen
+          Backup-Zyklen innerhalb von maximal 7 Tagen überschrieben.
         </p>
         <p>
           Gesetzliche Aufbewahrungspflichten (z. B. nach HGB, AO) bleiben unberührt.
@@ -574,9 +586,6 @@
           Postfach 3163<br />
           65021 Wiesbaden<br />
           <a href="https://datenschutz.hessen.de" target="_blank" rel="noopener noreferrer">https://datenschutz.hessen.de</a>
-        </p>
-        <p class="muted">
-          Die offizielle Website des HBDI ist erreichbar unter datenschutz.hessen.de. [web:14]
         </p>
         <p>
           Du kannst dich auch an die Aufsichtsbehörde deines Wohnsitzes wenden.
@@ -656,7 +665,7 @@
         </p>
         <ul>
           <li>die Inhalte im Rahmen der App zu speichern, zu vervielfältigen und anderen Nutzern zugänglich zu machen</li>
-          <li>die Inhalte zur Bereitstellung des Dienstes an technische Dienstleister (insbesondere Supabase) weiterzugeben</li>
+          <li>die Inhalte zur Bereitstellung des Dienstes an technische Dienstleister (insbesondere Supabase) weiterzugeben (Unterlizenzierungsrecht beschränkt auf den Betrieb des Dienstes)</li>
           <li>die Inhalte technisch zu bearbeiten, soweit dies für die Darstellung in der App erforderlich ist (z. B. Komprimierung, Skalierung)</li>
         </ul>
         <p>
@@ -685,11 +694,6 @@
           Widerspruch per E-Mail an
           <a href="mailto:info.brewsocial@gmail.com">info.brewsocial@gmail.com</a> eingelegt werden.
         </p>
-        <div class="notice">
-          [Hinweis an den Anwalt: Bitte prüfen, ob und in welchem Umfang die App unter den DSA fällt.
-          Bei Kleinstanbietern (&lt; 50 Mitarbeiter und &lt; 10 Mio. € Umsatz) entfallen viele DSA-Pflichten,
-          aber Meldewege und Begründungspflichten sind faktisch Standard geworden.]
-        </div>
 
         <h3>7. Haftung</h3>
         <p>
@@ -733,12 +737,19 @@
         <p>
           Der Anbieter ist berechtigt, diese Nutzungsbedingungen anzupassen, soweit dies aufgrund
           geänderter Rechtslage, technischer Entwicklungen oder zur Schließung von Regelungslücken
-          erforderlich ist. Die geänderten Bedingungen werden dem Nutzer mindestens 30 Tage vor
+          erforderlich ist. Geänderte Bedingungen werden dem Nutzer mindestens 30 Tage vor
           Inkrafttreten per In-App-Nachricht oder E-Mail mitgeteilt.
         </p>
         <p>
-          Widerspricht der Nutzer nicht innerhalb dieser Frist, gelten die Änderungen als angenommen.
-          Auf das Widerspruchsrecht und die Folgen des Schweigens wird in der Mitteilung gesondert hingewiesen.
+          Wesentliche Änderungen (insbesondere solche, die Nutzungsumfang, Datenverarbeitung oder
+          Haftung betreffen) bedürfen der ausdrücklichen Zustimmung des Nutzers. Der Nutzer wird
+          beim nächsten Login um aktive Zustimmung gebeten. Verweigert der Nutzer die Zustimmung,
+          kann der Anbieter den Nutzungsvertrag mit einer Frist von 30 Tagen ordentlich beenden;
+          der Nutzer kann den Vertrag in diesem Fall jederzeit durch Löschen des Accounts beenden.
+        </p>
+        <p>
+          Bei rein redaktionellen Änderungen ohne Auswirkung auf Rechte und Pflichten des Nutzers
+          (z. B. Tippfehler, Aktualisierung von Verweisen) ist eine erneute Zustimmung nicht erforderlich.
         </p>
 
         <h3>11. Anwendbares Recht und Gerichtsstand</h3>
@@ -778,7 +789,7 @@
     </section>
 
     <div class="footer">
-      <p>© BrewSocial – Rechtliche Informationen</p>
+      <p>© BrewSocial – Rechtliche Informationen · Stand: Mai 2026</p>
     </div>
   </main>
 </body>
